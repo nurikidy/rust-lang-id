@@ -1,30 +1,30 @@
-# The Rust Programming Language
+# Bahasa Pemrograman Rust
 
 ![Build Status](https://github.com/rust-lang/book/workflows/CI/badge.svg)
 
-This repository contains the source of "The Rust Programming Language" book.
+Repositori ini berisi sumber dari buku "The Rust Programming Language".
 
-[The book is available in dead-tree form from No Starch Press][nostarch].
+[Buku tersebut tersedia dalam format dead-tree dari No Starch Press][nostarch].
 
 [nostarch]: https://nostarch.com/rust
 
-You can also read the book for free online. Please see the book as shipped with
-the latest [stable], [beta], or [nightly] Rust releases. Be aware that issues
-in those versions may have been fixed in this repository already, as those
-releases are updated less frequently.
+Anda juga bisa mendapatkannya secara online dengan gratis. Silakan lihat buku tersebut 
+yang tersedia dengan rilis Rust terbaru versi [stable], [beta], atau [nightly]. Mohon diperhatikan 
+bahwa isu-isu yang terdapat pada versi-versi di atas kemungkinan sudah diperbaiki di repository ini, 
+karena versi di atas lebih jarang mendapatkan pembaruan.
 
 [stable]: https://doc.rust-lang.org/stable/book/
 [beta]: https://doc.rust-lang.org/beta/book/
 [nightly]: https://doc.rust-lang.org/nightly/book/
 
-See the [releases] to download just the code of all the code listings that appear in the book.
+Lihat [releases] untuk mengunduh kode sumber saja dari semua kode sumber yang ada di buku tersebut.
 
 [releases]: https://github.com/rust-lang/book/releases
 
-## Requirements
+## Persyaratan
 
-Building the book requires [mdBook], ideally the same version that
-rust-lang/rust uses in [this file][rust-mdbook]. To get it:
+Anda membutuhkan [mdBook] untuk membentuk buku ini, idealnya menggunakan versi yang sama dengan 
+rust-lang/rust yang digunakan di [berkas ini][rust-mdbook]. Untuk mendapatkannya:
 
 [mdBook]: https://github.com/rust-lang-nursery/mdBook
 [rust-mdbook]: https://github.com/rust-lang/rust/blob/master/src/tools/rustbook/Cargo.toml
@@ -41,8 +41,7 @@ To build the book, type:
 $ mdbook build
 ```
 
-The output will be in the `book` subdirectory. To check it out, open it in
-your web browser.
+Hasilnya akan berada di subdirektori `book`. Gunakan peramban Anda untuk memeriksanya.
 
 _Firefox:_
 ```bash
@@ -60,33 +59,29 @@ $ Start-Process "chrome.exe" .\book\index.html  # Windows (PowerShell)
 $ start chrome.exe .\book\index.html            # Windows (Cmd)
 ```
 
-To run the tests:
+Untuk menjalankan test:
 
 ```bash
 $ mdbook test
 ```
 
-## Contributing
+## Kontribusi
 
-We'd love your help! Please see [CONTRIBUTING.md][contrib] to learn about the
-kinds of contributions we're looking for.
+Kami senang akan bantuan Anda! Silakan lihat [CONTRIBUTING.md][contrib] untuk mempelajari macam kontribusi apa yang sekiranya Anda cari.
 
 [contrib]: https://github.com/rust-lang/book/blob/master/CONTRIBUTING.md
 
-### Translations
+### Penerjemahan
 
-We'd love help translating the book! See the [Translations] label to join in
-efforts that are currently in progress. Open a new issue to start working on
-a new language! We're waiting on [mdbook support] for multiple languages
-before we merge any in, but feel free to start!
+Kami akan sangat senang membantu menerjemahkan buku! Silakan lihat label [Translations] untuk bergabung dengan upaya penerjemahan yang sedang berlangsug. Buka sebuah isu baru untuk memulai penerjemahan ke dalam bahasa baru! Kami  menunggu [mdbook support] di berbagai bahasa sebelum menggabungkannya, for multiple languages before we merge any in, namun silakan saja untuk memulai!
 
 [Translations]: https://github.com/rust-lang/book/issues?q=is%3Aopen+is%3Aissue+label%3ATranslations
 [mdbook support]: https://github.com/rust-lang-nursery/mdBook/issues/5
 
-## Spellchecking
+## Pemeriksaan Ejaan
 
-To scan source files for spelling errors, you can use the `spellcheck.sh`
-script. It needs a dictionary of valid words, which is provided in
-`dictionary.txt`. If the script produces a false positive (say, you used word
-`BTreeMap` which the script considers invalid), you need to add this word to
-`dictionary.txt` (keep the sorted order for consistency).
+Untuk memindai kesalahan ejaan di berkas sumber, Anda dapat menggunakan skrip `spellcheck.sh`
+. Diperlukan kamus kata-kata yang valid, yang disediakan di
+`dictionary.txt`. Jika hasil skrip adalah _false positive_ (katakanlah, Anda menggunakan kata
+`BTreeMap` yang dianggap skrip tidak valid), Anda perlu menambahkan kata tersebut ke
+`dictionary.txt` (pastikan urutannya tetap konsisten).
