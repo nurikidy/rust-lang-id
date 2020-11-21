@@ -1,24 +1,20 @@
-# Foreword
+# Kata Pengantar
 
-It wasn’t always so clear, but the Rust programming language is fundamentally
-about *empowerment*: no matter what kind of code you are writing now, Rust
-empowers you to reach farther, to program with confidence in a wider variety of
-domains than you did before.
+Tidak selalu jelas, namun bahasa pemrograman Rust pada dasarnya
+berbicara mengenai *pemberdayaan*: apa pun jenis kode yang Anda tulis sekarang, Rust
+memberdayakan Anda untuk menjangkau lebih jauh, untuk memprogram dengan percaya diri dalam variasi domain yang lebih luas
+daripada yang Anda lakukan sebelumnya.
 
-Take, for example, “systems-level” work that deals with low-level details of
-memory management, data representation, and concurrency. Traditionally, this
-realm of programming is seen as arcane, accessible only to a select few who
-have devoted the necessary years learning to avoid its infamous pitfalls. And
-even those who practice it do so with caution, lest their code be open to
-exploits, crashes, or corruption.
+Sebagai contoh, pekerjaan "_systems-level_" yang berhubungan dengan rincian tingkat rendah
+manajemen memori, representasi data, dan konkurensi. Secara tradisional, ini
+area pemrograman yang tertutup, hanya dapat diakses oleh orang-orang terpilih
+yang telah mengabdikan sekian tahun hidupnya untuk belajar menghindari segala permasalahannya. Dan mereka ini melakukannya dengan sangat hati-hati, menjaga jangan sampai kode mereka rentan akan eksploit, crash ataupun korupsi.
 
-Rust breaks down these barriers by eliminating the old pitfalls and providing a
-friendly, polished set of tools to help you along the way. Programmers who need
-to “dip down” into lower-level control can do so with Rust, without taking on
-the customary risk of crashes or security holes, and without having to learn
-the fine points of a fickle toolchain. Better yet, the language is designed to
-guide you naturally towards reliable code that is efficient in terms of speed
-and memory usage.
+Rust meruntuhkan halangan-halangan ini dengan mengilangkan permasalahan lama tersebut dan 
+memberikan seperangkat alat yang dibuat dengan bagus dan mudah digunakan untuk membantu Anda. Programmer yang ingin "terjun lebih dalam" ke kontrol _lower-level_ 
+dapat juga melakukannya dengan Rust, tanpa harus mengambil resiko terkait crash ataupun celah keamanan, dan juga tanpa harus mempelajari hal-hal penting dari _toolchain_ yang sering berubah-ubah. Bukan hanya itu, bahasa ini didesain untuk 
+memandu Anda secara natural dalam menulis kode yang handal yang efisien 
+dalam hal kecepatan dan penggunaan memori.
 
 Programmers who are already working with low-level code can use Rust to raise
 their ambitions. For example, introducing parallelism in Rust is a relatively
@@ -33,9 +29,6 @@ book. Working with Rust allows you to build skills that transfer from one
 domain to another; you can learn Rust by writing a web app, then apply those
 same skills to target your Raspberry Pi.
 
-This book fully embraces the potential of Rust to empower its users. It’s a
-friendly and approachable text intended to help you level up not just your
-knowledge of Rust, but also your reach and confidence as a programmer in
-general. So dive in, get ready to learn—and welcome to the Rust community!
+Buku ini sepenuhnya menekankan pada potensi Rust unuk memberdayakan para penggunanya. Buku ini juga mudah dipahami dan ditujukan untuk membantu meningkatkan tidak hanya pengetahuan Anda tentang Rust, namun juga jangkauan dan percaya diri Anda sebagai seorang programmer pada umumnya. Jadi tunggu apa lagi, mari kita bersiap untuk belajar dan selamat datang di komunitas Rust!
 
-— Nicholas Matsakis and Aaron Turon
+— Nicholas Matsakis dan Aaron Turon
