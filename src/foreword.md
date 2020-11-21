@@ -16,19 +16,16 @@ dapat juga melakukannya dengan Rust, tanpa harus mengambil resiko terkait crash 
 memandu Anda secara natural dalam menulis kode yang handal yang efisien 
 dalam hal kecepatan dan penggunaan memori.
 
-Programmers who are already working with low-level code can use Rust to raise
-their ambitions. For example, introducing parallelism in Rust is a relatively
-low-risk operation: the compiler will catch the classical mistakes for you. And
-you can tackle more aggressive optimizations in your code with the confidence
-that you won’t accidentally introduce crashes or vulnerabilities.
+Programmer yang tengah bekerja dengan kode _low-level_ dapat memakai Rust untuk meningkatkan 
+ambisi mereka. Contohnya, mulai menggunakan parallelisme dalam Rust adalah 
+sebuah operasi yang relatif beresiko rendah: kompilator akan menangkap kesalahan-kesalahan klasik untuk anda. Dan 
+anda dapat melakukan lebih banyak optimasi secara agresif di kode anda dengan keyakinan 
+kalau anda tidak akan membuat _crash_ ataupu kerentanan sistem lainnya secara tidak sengaja.
 
-But Rust isn’t limited to low-level systems programming. It’s expressive and
-ergonomic enough to make CLI apps, web servers, and many other kinds of code
-quite pleasant to write — you’ll find simple examples of both later in the
-book. Working with Rust allows you to build skills that transfer from one
-domain to another; you can learn Rust by writing a web app, then apply those
-same skills to target your Raspberry Pi.
-
+Namun Rust tidak hanya terbatas pada pemrograman sistem _low-level_. Dia cukup ekspresif 
+dan ergonomik untuk membuat aplikasi CLI, _web server_, dan sistem lainnya - anda akan menemukan contoh-contoh sederhana akan keduanya di buku ini. 
+Bekerja dengan Rust memungkinkan anda untuk membangun kemampuan yang ditransfer dari satu area ke lainnya; Anda dapat belajar Rust dengan membuat sebuah aplikasi web, dan hal yang sama dapat diterapkan pula untuk Raspberry Pi anda.
+ 
 Buku ini sepenuhnya menekankan pada potensi Rust unuk memberdayakan para penggunanya. Buku ini juga mudah dipahami dan ditujukan untuk membantu meningkatkan tidak hanya pengetahuan Anda tentang Rust, namun juga jangkauan dan percaya diri Anda sebagai seorang programmer pada umumnya. Jadi tunggu apa lagi, mari kita bersiap untuk belajar dan selamat datang di komunitas Rust!
 
 — Nicholas Matsakis dan Aaron Turon
