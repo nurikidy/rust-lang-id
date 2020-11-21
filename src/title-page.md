@@ -2,11 +2,9 @@
 
 *oleh Steve Klabnik dan Carol Nichols, dengan kontribusi dari komunitas Rust*
 
-This version of the text assumes you’re using Rust 1.41.0 or later with
-`edition="2018"` in *Cargo.toml* of all projects to use Rust 2018 Edition
-idioms. See the [“Installation” section of Chapter 1][install]<!-- ignore -->
-to install or update Rust, and see the new [Appendix E][editions]<!-- ignore
---> for information on editions.
+Di versi ini kami mengasumsikan anda menggunakan Rust 1.41.0 atau versi terbaru dengan 
+`edition="2018"` di *Cargo.toml* dari semua proyek untuk menggunakan idiom Edisi Rust 2018. Lihat [bagian “Instalasi” di Chapter 1][install]<!-- ignore -->
+untuk menginstal atau memperbarui Rust, dan lihat [Appendix E][editions]<!-- ignore--> yang baru untuk informasi edisi-edisi yang ada.
 
 The 2018 Edition of the Rust language includes a number of improvements that
 make Rust more ergonomic and easier to learn. This iteration of the book
