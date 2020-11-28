@@ -1,16 +1,15 @@
 # Introduction
 
-> Note: This edition of the book is the same as [The Rust Programming
-> Language][nsprust] available in print and ebook format from [No Starch
+> Catatan: Buku edisi ini sama dengan [The Rust Programming
+> Language][nsprust] yang tersedia dalam bentuk cetak dan ebook dari [No Starch
 > Press][nsp].
 
 [nsprust]: https://nostarch.com/rust
 [nsp]: https://nostarch.com/
 
-Welcome to *The Rust Programming Language*, an introductory book about Rust.
-The Rust programming language helps you write faster, more reliable software.
-High-level ergonomics and low-level control are often at odds in programming
-language design; Rust challenges that conflict. Through balancing powerful
+Selamat datang di *Bahasa Pemrograman Rust*, sebuah pengenalan akan Rust.
+Bahasa Pemrograman Rust membantu anda menulis perangkat lunak dengan lebih cepat dan lebih andal.
+Ergonomi tingkat tinggi dan kontrol tingkat rendah sering kali bertentangan dalam desain sebuah bahasa pemrograman; Rust challenges that conflict. Through balancing powerful
 technical capacity and a great developer experience, Rust gives you the option
 to control low-level details (such as memory usage) without all the hassle
 traditionally associated with such control.
@@ -148,7 +147,7 @@ principles you might be familiar with.
 Bab 18 adalah referensi dari pola dan pencocokan pola, yang merupakan cara yang sangat ampuh
 untuk mengekspresikan ide di pemrograman Rust. Bab 19 berisi sebuah 
 kumpulan dari topik-topik lanjutan yang menarik, termasuk _unsafe_ Rust, makro, dan 
-penjelasan lebih lanjut akan _lifetime_, _trait_, tipe, fungsi dan _closure_.
+penjelasan lebih lanjut akan masa hidup, _trait_, tipe, fungsi dan _closure_.
 
 Di Bab 20, kita akan menyelesaikan sebuah proyek yang berupa implementasi low-level
 multithreaded pada sebuah web server!
