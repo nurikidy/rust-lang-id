@@ -8,9 +8,9 @@ Repositori ini berisi sumber dari buku "The Rust Programming Language".
 
 [nostarch]: https://nostarch.com/rust
 
-Anda juga bisa mendapatkannya secara online dengan gratis. Silakan lihat buku tersebut 
+Kamu juga bisa mendapatkannya secara daring dengan gratis. Silakan lihat buku tersebut 
 yang tersedia dengan rilis Rust terbaru versi [stable], [beta], atau [nightly]. Mohon diperhatikan 
-bahwa isu-isu yang terdapat pada versi-versi di atas kemungkinan sudah diperbaiki di repository ini, 
+bahwa isu-isu yang terdapat pada versi-versi di atas kemungkinan sudah diperbaiki di repositori ini, 
 karena versi di atas lebih jarang mendapatkan pembaruan.
 
 [stable]: https://doc.rust-lang.org/stable/book/
@@ -23,7 +23,7 @@ Lihat [releases] untuk mengunduh kode sumber saja dari semua kode sumber yang ad
 
 ## Persyaratan
 
-Anda membutuhkan [mdBook] untuk membentuk buku ini, idealnya menggunakan versi yang sama dengan 
+Kamu membutuhkan [mdBook] untuk membentuk buku ini, idealnya menggunakan versi yang sama dengan 
 rust-lang/rust yang digunakan di [berkas ini][rust-mdbook]. Untuk mendapatkannya:
 
 [mdBook]: https://github.com/rust-lang-nursery/mdBook
@@ -41,7 +41,7 @@ To build the book, type:
 $ mdbook build
 ```
 
-Hasilnya akan berada di subdirektori `book`. Gunakan peramban Anda untuk memeriksanya.
+Hasilnya akan berada di subdirektori `book`. Gunakan perambanmu untuk memeriksanya.
 
 _Firefox:_
 ```bash
@@ -67,7 +67,7 @@ $ mdbook test
 
 ## Kontribusi
 
-Kami senang akan bantuan Anda! Silakan lihat [CONTRIBUTING.md][contrib] untuk mempelajari macam kontribusi apa yang sekiranya Anda cari.
+Kami senang akan bantuanmu! Silakan lihat [CONTRIBUTING.md][contrib] untuk mempelajari macam kontribusi apa yang sekiranya kamu cari.
 
 [contrib]: https://github.com/rust-lang/book/blob/master/CONTRIBUTING.md
 
@@ -80,8 +80,8 @@ Kami akan sangat senang membantu menerjemahkan buku! Silakan lihat label [Transl
 
 ## Pemeriksaan Ejaan
 
-Untuk memindai kesalahan ejaan di berkas sumber, Anda dapat menggunakan skrip `spellcheck.sh`
+Untuk memindai kesalahan ejaan di berkas sumber, kamu dapat menggunakan skrip `spellcheck.sh`
 . Diperlukan kamus kata-kata yang valid, yang disediakan di
-`dictionary.txt`. Jika hasil skrip adalah _false positive_ (katakanlah, Anda menggunakan kata
-`BTreeMap` yang dianggap skrip tidak valid), Anda perlu menambahkan kata tersebut ke
+`dictionary.txt`. Jika hasil skrip adalah _false positive_ (katakanlah, kamu menggunakan kata
+`BTreeMap` yang dianggap skrip tidak valid), kamu perlu menambahkan kata tersebut ke
 `dictionary.txt` (pastikan urutannya tetap konsisten).
