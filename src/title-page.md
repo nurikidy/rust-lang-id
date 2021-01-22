@@ -21,13 +21,13 @@ Bahasa Rust Edisi 2018 mencakup sejumlah peningkatan yang membuat Rust lebih erg
 - Lampiran A, “Keywords,” juga menjelaskan fitur _raw identifier_ yang
   memungkinkan kode yang ditulis menggunakan edisi 2015 bekerja edisi 2018 dan sebaliknya.
 - Lampiran D sekarang berjudul Alat-alat Pengembangan yang Berguna” dan mencakup 
-  alat-alat yang baru saa dirilis untuk membantu anda menulis kode-kode Rust.
+  alat-alat yang baru saa dirilis untuk membantumu menulis kode-kode Rust.
 - Kami memperbaiki sejumlah kesalahan kecil dan kata-kata yang tidak tepat di seluruh buku.
-  Terima kasih kepada anda para pembaca yang telah melaporkannya ke kami!
+  Terima kasih kepada para pembaca semua yang telah melaporkannya ke kami!
 
 Perlu dicatat bahwa kode di iterasi *Bahasa Pemrograman Rust* sebelumnya
 yang telah terkompilasi akan tetap dikompilasi tanpa mendefinisikan `edition="2018"` di dalam
-*Cargo.toml*, walaupun anda telah memperbarui versi kompilator Rust yang anda gunakan. Hal tersebut adalah _backward compatibility_ dari Rust!
+*Cargo.toml*, walaupun kamu telah memperbarui versi kompilator Rust yang kamu gunakan. Hal tersebut adalah _backward compatibility_ dari Rust!
 
 Format HTML tersedia secara daring di 
 [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
