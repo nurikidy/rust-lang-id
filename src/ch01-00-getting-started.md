@@ -1,6 +1,6 @@
 # Mulai
 
-Mari kita mulai petualangan Rust-mu! Banyak hal yang dipelajari, namun setiap pertualngan tentu 
+Mari kita mulai petualangan Rust-mu! Banyak hal yang dipelajari, namun setiap petualangan tentu 
 berangkat dari sebuah tempat dulu. Di bagian ini kita akan berdiskusi tentang:
 
 * Instaasi Rust di Linux, macOS, dan Windows
