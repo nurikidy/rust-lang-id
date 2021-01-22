@@ -2,9 +2,9 @@
 
 *oleh Steve Klabnik dan Carol Nichols, dengan kontribusi dari komunitas Rust*
 
-Di versi ini kami mengasumsikan anda menggunakan Rust 1.41.0 atau versi terbaru dengan 
+Di versi ini kita asumsikan kamu menggunakan Rust 1.41.0 atau versi terbaru dengan 
 `edition="2018"` di *Cargo.toml* dari semua proyek untuk menggunakan idiom Edisi Rust 2018. Lihat [bagian “Instalasi” di Bab 1][install]<!-- ignore -->
-untuk menginstal atau memperbarui Rust, dan lihat [Lampiran E][editions]<!-- ignore--> yang baru untuk informasi edisi-edisi yang ada.
+untuk menginstal atau memperbarui Rust, dan lihat [Appendix E][editions]<!-- ignore--> yang baru untuk informasi mengenai edisi-edisi yang ada.
 
 Bahasa Rust Edisi 2018 mencakup sejumlah peningkatan yang membuat Rust lebih ergonomis dan lebih mudah dipelajari. Iterasi buku ini berisi sejumlah perubahan untuk mencerminkan peningkatan tersebut:
 
@@ -29,7 +29,7 @@ Perlu dicatat bahwa kode di iterasi *Bahasa Pemrograman Rust* sebelumnya
 yang telah terkompilasi akan tetap dikompilasi tanpa mendefinisikan `edition="2018"` di dalam
 *Cargo.toml*, walaupun anda telah memperbarui versi kompilator Rust yang anda gunakan. Hal tersebut adalah _backward compatibility_ dari Rust!
 
-Format HTML tersedia secara dasring di 
+Format HTML tersedia secara daring di 
 [https://doc.rust-lang.org/stable/book/](https://doc.rust-lang.org/stable/book/)
 dan luring bersama instalasi Rust yang dibuat dengan `rustup`; jalankan `rustup docs
 --book` untuk membukanya.

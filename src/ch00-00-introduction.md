@@ -1,4 +1,4 @@
-# Introduction
+# Pengenalan
 
 > Catatan: Buku edisi ini sama dengan [The Rust Programming
 > Language][nsprust] yang tersedia dalam bentuk cetak dan ebook dari [No Starch
