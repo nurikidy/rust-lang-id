@@ -1,4 +1,4 @@
-# Maulai
+# Mulai
 
 Mari kita mulai petualangan Rust-mu! Banyak hal yang dipelajari, namun setiap pertualngan tentu 
 berangkat dari sebuah tempat dulu. Di bagian ini kita akan berdiskusi tentang:
